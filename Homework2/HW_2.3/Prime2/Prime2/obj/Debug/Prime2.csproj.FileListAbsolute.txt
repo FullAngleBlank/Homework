@@ -1,0 +1,7 @@
+D:\ VS2017\C#\Prime2\Prime2\bin\Debug\Prime2.exe.config
+D:\ VS2017\C#\Prime2\Prime2\bin\Debug\Prime2.exe
+D:\ VS2017\C#\Prime2\Prime2\bin\Debug\Prime2.pdb
+D:\ VS2017\C#\Prime2\Prime2\obj\Debug\Prime2.csprojAssemblyReference.cache
+D:\ VS2017\C#\Prime2\Prime2\obj\Debug\Prime2.csproj.CoreCompileInputs.cache
+D:\ VS2017\C#\Prime2\Prime2\obj\Debug\Prime2.exe
+D:\ VS2017\C#\Prime2\Prime2\obj\Debug\Prime2.pdb

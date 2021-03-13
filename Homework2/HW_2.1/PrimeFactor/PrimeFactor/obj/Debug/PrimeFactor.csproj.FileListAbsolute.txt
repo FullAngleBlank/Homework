@@ -1,0 +1,7 @@
+D:\ VS2017\C#\PrimeFactor\PrimeFactor\bin\Debug\PrimeFactor.exe.config
+D:\ VS2017\C#\PrimeFactor\PrimeFactor\bin\Debug\PrimeFactor.exe
+D:\ VS2017\C#\PrimeFactor\PrimeFactor\bin\Debug\PrimeFactor.pdb
+D:\ VS2017\C#\PrimeFactor\PrimeFactor\obj\Debug\PrimeFactor.csprojAssemblyReference.cache
+D:\ VS2017\C#\PrimeFactor\PrimeFactor\obj\Debug\PrimeFactor.csproj.CoreCompileInputs.cache
+D:\ VS2017\C#\PrimeFactor\PrimeFactor\obj\Debug\PrimeFactor.exe
+D:\ VS2017\C#\PrimeFactor\PrimeFactor\obj\Debug\PrimeFactor.pdb

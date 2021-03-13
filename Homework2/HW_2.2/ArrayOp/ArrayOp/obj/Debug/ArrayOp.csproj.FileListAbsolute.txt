@@ -1,0 +1,7 @@
+D:\ VS2017\C#\ArrayOp\ArrayOp\bin\Debug\ArrayOp.exe.config
+D:\ VS2017\C#\ArrayOp\ArrayOp\bin\Debug\ArrayOp.exe
+D:\ VS2017\C#\ArrayOp\ArrayOp\bin\Debug\ArrayOp.pdb
+D:\ VS2017\C#\ArrayOp\ArrayOp\obj\Debug\ArrayOp.csprojAssemblyReference.cache
+D:\ VS2017\C#\ArrayOp\ArrayOp\obj\Debug\ArrayOp.csproj.CoreCompileInputs.cache
+D:\ VS2017\C#\ArrayOp\ArrayOp\obj\Debug\ArrayOp.exe
+D:\ VS2017\C#\ArrayOp\ArrayOp\obj\Debug\ArrayOp.pdb

@@ -1,0 +1,7 @@
+D:\ VS2017\C#\FactoryPattern\FactoryPattern\bin\Debug\FactoryPattern.exe.config
+D:\ VS2017\C#\FactoryPattern\FactoryPattern\bin\Debug\FactoryPattern.exe
+D:\ VS2017\C#\FactoryPattern\FactoryPattern\bin\Debug\FactoryPattern.pdb
+D:\ VS2017\C#\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.csprojAssemblyReference.cache
+D:\ VS2017\C#\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.csproj.CoreCompileInputs.cache
+D:\ VS2017\C#\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.exe
+D:\ VS2017\C#\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.pdb
