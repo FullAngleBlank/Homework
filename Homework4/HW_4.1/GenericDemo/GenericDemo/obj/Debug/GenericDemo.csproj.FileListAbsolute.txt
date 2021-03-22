@@ -1,0 +1,7 @@
+D:\ VS2017\C#\GenericDemo\GenericDemo\bin\Debug\GenericDemo.exe.config
+D:\ VS2017\C#\GenericDemo\GenericDemo\bin\Debug\GenericDemo.exe
+D:\ VS2017\C#\GenericDemo\GenericDemo\bin\Debug\GenericDemo.pdb
+D:\ VS2017\C#\GenericDemo\GenericDemo\obj\Debug\GenericDemo.csprojAssemblyReference.cache
+D:\ VS2017\C#\GenericDemo\GenericDemo\obj\Debug\GenericDemo.csproj.CoreCompileInputs.cache
+D:\ VS2017\C#\GenericDemo\GenericDemo\obj\Debug\GenericDemo.exe
+D:\ VS2017\C#\GenericDemo\GenericDemo\obj\Debug\GenericDemo.pdb

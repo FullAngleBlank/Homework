@@ -1,0 +1,7 @@
+D:\ VS2017\C#\Clock\Clock\bin\Debug\Clock.exe.config
+D:\ VS2017\C#\Clock\Clock\bin\Debug\Clock.exe
+D:\ VS2017\C#\Clock\Clock\bin\Debug\Clock.pdb
+D:\ VS2017\C#\Clock\Clock\obj\Debug\Clock.csprojAssemblyReference.cache
+D:\ VS2017\C#\Clock\Clock\obj\Debug\Clock.csproj.CoreCompileInputs.cache
+D:\ VS2017\C#\Clock\Clock\obj\Debug\Clock.exe
+D:\ VS2017\C#\Clock\Clock\obj\Debug\Clock.pdb
