@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <orderItem>
+      <OrderItem>
+        <Name>xz</Name>
+        <Number>1</Number>
+        <Price>12</Price>
+      </OrderItem>
+    </orderItem>
+    <Id>1</Id>
+    <Customer>xxx</Customer>
+    <Money>12</Money>
+    <Date>2020</Date>
+  </Order>
+</ArrayOfOrder>
