@@ -1,0 +1,10 @@
+D:\ VS2017\C#\CayleyTree\CayleyTree\bin\Debug\CayleyTree.exe.config
+D:\ VS2017\C#\CayleyTree\CayleyTree\bin\Debug\CayleyTree.exe
+D:\ VS2017\C#\CayleyTree\CayleyTree\bin\Debug\CayleyTree.pdb
+D:\ VS2017\C#\CayleyTree\CayleyTree\obj\Debug\CayleyTree.csprojAssemblyReference.cache
+D:\ VS2017\C#\CayleyTree\CayleyTree\obj\Debug\CayleyTree.Form1.resources
+D:\ VS2017\C#\CayleyTree\CayleyTree\obj\Debug\CayleyTree.Properties.Resources.resources
+D:\ VS2017\C#\CayleyTree\CayleyTree\obj\Debug\CayleyTree.csproj.GenerateResource.cache
+D:\ VS2017\C#\CayleyTree\CayleyTree\obj\Debug\CayleyTree.csproj.CoreCompileInputs.cache
+D:\ VS2017\C#\CayleyTree\CayleyTree\obj\Debug\CayleyTree.exe
+D:\ VS2017\C#\CayleyTree\CayleyTree\obj\Debug\CayleyTree.pdb
