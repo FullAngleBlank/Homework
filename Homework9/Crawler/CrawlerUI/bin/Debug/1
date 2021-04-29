@@ -1,0 +1,1059 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin-when-crossorigin" />
+    
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>风尘浪子 - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.svg" type="image/svg+xml" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=zS6-e1bxywlu3kpHvpr1J6MySwya3ztFtEnS7RYQ0Fk" />
+    <link id="MainCss" rel="stylesheet" href="/skins/book/bundle-book.min.css?v=jeIWFbREsBywulLasTpkQaxky-lM6nSP4v7QSo89d0Y" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/book/bundle-book-mobile.min.css?v=VScK2RSKmlDZjHFFPrzU6xRmTprJestCE7-RZpLjaKU" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/leslies2/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/leslies2/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/leslies2/wlwmanifest.xml" />
+    <script>
+        var currentBlogId = 82463;
+        var currentBlogApp = 'leslies2';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var isBlogOwner = false;
+        var skinName = 'BOOK';
+        var visitorUserId = '';
+    </script>
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=CJtNAb53Ex2fBes_h70ZUTUv5aZTxcvvM7mCnA44svE"></script>
+    
+    
+    
+</head>
+<body class="has-navbar has-bannerbar">
+    <a name="top"></a>
+        <a target="_blank" href="https://www.aliyun.com/minisite/goods?userCode=swh7dvlt" onclick="ga('send', 'event', 'Link', 'click', 'aliyun-cps-blog-bannerbar-pc')">
+            <div class="bannerbar aliyun forpc" style="background-size: contain;background-image: url(https://img2020.cnblogs.com/blog/35695/202104/35695-20210428221933214-737067094.jpg)">
+            </div>
+        </a>
+        <div id="bannerbar" class="bannerbar-mobile formobile">
+            <a href="https://www.aliyun.com/minisite/goods?userCode=swh7dvlt" target="_blank" onclick="ga('send', 'event', 'Link', 'click', 'aliyun-cps-blog-bannerbar-mobile')">
+                <img src="https://img2020.cnblogs.com/blog/35695/202104/35695-20210428213541700-642740375.jpg" alt="" />
+            </a>
+        </div>
+    <div id="top_nav" class="navbar forpc">
+        <nav id="nav_main" class="navbar-main">
+            <ul id="nav_left" class="navbar-list navbar-left">
+                <li class="navbar-branding"><a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="/images/logo.svg?v=R9M0WmLAIPVydmdzE2keuvnjl-bPR7_35oHqtiBzGsM" alt="博客园Logo" /></a></li>
+                <li><a href="/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-sitehome')">首页</a></li>
+                <li><a href="https://news.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-news')">新闻</a></li>
+                <li><a href="https://q.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-q')">博问</a></li>
+                <li><a id="nav_brandzone" href="https://brands.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-brands')">专区</a></li>
+                <li><a href="https://ing.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-ing')">闪存</a></li>
+                <li><a href="https://edu.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-edu')">班级</a></li>
+            </ul>
+            <ul id="nav_right" class="navbar-list navbar-right">
+                <li>
+                    <form id="zzk_search" class="navbar-search" action="https://zzk.cnblogs.com/s" method="get">
+                        <input name="w" id="zzk_search_input" placeholder="代码改变世界" type="text" tabindex="3" />
+                        <button type="submit" id="zzk_search_button">
+                            <img src="/images/aggsite/search.svg" alt="搜索" />
+                        </button>
+                    </form>
+                </li>
+                <li id="navbar_login_status" class="navbar-list">
+                    <a class="navbar-user-info navbar-blog" href="https://i.cnblogs.com/EditPosts.aspx?opt=1" alt="写随笔" title="写随笔">
+                        <img id="new_post_icon" class="navbar-icon" src="/images/aggsite/newpost.svg" alt="写随笔" />
+                    </a>
+                    <a id="navblog-myblog-icon" class="navbar-user-info navbar-blog" href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx" alt="我的博客" title="我的博客">
+                        <img id="myblog_icon" class="navbar-icon" src="/images/aggsite/myblog.svg" alt="我的博客" />
+                    </a>
+                    <a class="navbar-user-info navbar-message navbar-icon-wrapper" href="https://msg.cnblogs.com/" alt="短消息" title="短消息">
+                        <img id="msg_icon" class="navbar-icon" src="/images/aggsite/message.svg?v=J0WS2P2iPgaIVgXxcAhliw4AFZIpaTWxtdoNAv9eiCA" alt="短消息" />
+                        <span id="msg_count" style="display: none"></span>
+                    </a>
+                    <div id="user_info" class="navbar-user-info dropdown">
+                        <a class="dropdown-button" href="https://home.cnblogs.com/">
+                            <img id="user_icon" class="navbar-avatar" src="/images/aggsite/avatar-default.svg" alt="用户头像" />
+                        </a>
+                        <div class="dropdown-menu">
+                            <a id="navblog-myblog-text" href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx">我的博客</a>
+                            <a href="https://home.cnblogs.com/">我的园子</a>
+                            <a href="https://account.cnblogs.com/settings/account">账号设置</a>
+                            <a href="javascript:void(0)" id="navbar_lite_mode_toggle" title="简洁模式会使用简洁款皮肤显示所有博客">
+    简洁模式 <img id="navbar_lite_mode_on" src="/images/lite-mode-check.svg" class="hide" /><span id="navbar_lite_mode_spinner" class="hide">...</span>
+</a>
+                            <a href="javascript:void(0)" onclick="account.logout();">退出登录</a>
+                        </div>
+                    </div>
+                    <a class="navbar-anonymous" href="https://account.cnblogs.com/signup/">注册</a>
+                    <a class="navbar-anonymous" href="javascript:void(0);" onclick="account.login()">登录</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    
+    <script type="text/javascript">
+	try {
+		if (screen.availWidth > 1200) {
+			document.getElementById("MainCss").href = '/skins/book/bundle-book-2.min.css';
+		}
+	} catch (e) { }
+</script>
+
+<div id="header">
+<div id="HeaderTitle">
+<div id="Title">
+<a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/leslies2/"><a href="http://home.cnblogs.com/u/leslies2/"><font style="color:#3468E2;font-size:28px;">风尘浪子</font></a></a>
+
+</div>
+<div id="subTitle"><font style="color:#3468E2; ">只要肯努力，梦想总有一天会实现</font><p>&nbsp;</p><p>&nbsp;</p></div>
+</div>
+</div>
+
+
+<div id="main">
+	
+
+
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2021/04/29.html"></a>
+	2021年4月29日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/p/14719516.html">
+    <span>
+        Python 基础教程 —— 网络爬虫入门篇
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img class="desc_img" style="border: 2px solid rgba(170, 170, 170, 1); margin-right: 10px" height="100px" width="100px;" src="https://images.cnblogs.com/cnblogs_com/leslies2/826253/o_210429135227a.jpg">Python 是一种解释型、面向对象、动态数据类型的高级程序设计语言。自面世以后，Python 深受广大开发者的喜迎，在网站开发，网络爬虫，数据分析，机器学习，人工智能等领域都有其过人之处。本文将介绍python 网络爬虫的使用方法，对request.urlretrieve()   request.open()等方法进行讲解，分析 re.search（） re.compile（）等常用方法的应用场景，并通过 matplotlib 库显示数据图形。        <a href="https://www.cnblogs.com/leslies2/p/14719516.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2021-04-29 21:54
+风尘浪子
+<span data-post-id="14719516" class="post-view-count">阅读(8)</span> 
+<span data-post-id="14719516" class="post-comment-count">评论(0)</span> 
+<span data-post-id="14719516" class="post-digg-count">推荐(0)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=14719516" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2019/08/09.html"></a>
+	2019年8月9日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/p/11238859.html">
+    <span>
+        深入剖析 RabbitMQ —— Spring 框架下实现 AMQP 高级消息队列协议
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img class="desc_img" style="border: 2px solid #AAAAAA; margin-right: 10px" height="100px" width="100px;" src="https://img2018.cnblogs.com/blog/64989/201908/64989-20190809172919839-1596017837.jpg">消息队列在现今数据量大，并发量高的系统中是十分常用的。本文会对最常用到的几款消息队列框架 ActiveMQ、RabbitMQ、Kafka 进行分析对比。介绍 RabbitMQ 在 Spring 框架下的结构及实现原理，从Producer 端的事务、回调函数（ConfirmCallback / ReturnCallback）到 Consumer 端的 MessageListenerContainer 信息接收容器进行详细的分析。介绍 RabbitTemplate、SimpleMessageListenerContainer、DirectMessageListenerContainer 等常用类型。        <a href="https://www.cnblogs.com/leslies2/p/11238859.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2019-08-09 17:25
+风尘浪子
+<span data-post-id="11238859" class="post-view-count">阅读(3668)</span> 
+<span data-post-id="11238859" class="post-comment-count">评论(2)</span> 
+<span data-post-id="11238859" class="post-digg-count">推荐(3)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11238859" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2018/09/10.html"></a>
+	2018年9月10日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/p/9530378.html">
+    <span>
+        Hadoop 综合揭秘——HBase的原理与应用
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img class="desc_img" style="border: 2px solid #AAAAAA; margin-right: 10px" height="100px" width="100px" src="https://images2018.cnblogs.com/blog/64989/201809/64989-20180910105737747-1642799597.jpg" alt="">HBase（Hadoop Database）是一个高可靠性、高性能、面向列、可伸缩的分布式数据库，典型的 NoSQL（Not Only SQL）数据库。本文主要向各位介绍 HBase 的发展历史，基础结构与原理，应用的场景，对常用的 JAVA API 操作进行梳理，对RowKey的设计展开讨论。在最后一节还会详细讲述 HBase 与 MR 之间关系，通过实用例子介绍TableMapReduceUtil，TableMapper，TableReducer等工具类的使用方法。在现今大数据年代，了解NoSQL的开发可以说是技术人员入门的必修课程，希望本文对各位的工作学习有所帮助。        <a href="https://www.cnblogs.com/leslies2/p/9530378.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2018-09-10 10:52
+风尘浪子
+<span data-post-id="9530378" class="post-view-count">阅读(8554)</span> 
+<span data-post-id="9530378" class="post-comment-count">评论(1)</span> 
+<span data-post-id="9530378" class="post-digg-count">推荐(3)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9530378" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2018/08/16.html"></a>
+	2018年8月16日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/p/9009574.html">
+    <span>
+        Hadoop 综合揭秘——MapReduce 基础编程（介绍 Combine、Partitioner、WritableComparable、WritableComparator 使用方式）
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img class="desc_img" style="border: 2px solid #AAAAAA; margin-right: 10px" height="100px" width="100px" src="https://images2018.cnblogs.com/blog/64989/201808/64989-20180817145141482-240373901.jpg" alt="">本章主要介绍 MapReduce 的开发原理及应用场景，让大家初步认识 MapReduce 的使用方式，讲解如何利用 Combine、Partitioner、WritableComparable、WritableComparator 等组件对数据进行排序筛选聚合分组的功能。利用例子模仿 SQL 关系数据库进行SELECT、WHERE、GROUP、JOIN 等操作，并对 GroupingComparator、SortComparator 等功能进行说明。对多数据集的连接查询进行分析，介绍如何通过 Map 端与 Reduce 端对多数据集连接进行处理。        <a href="https://www.cnblogs.com/leslies2/p/9009574.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2018-08-16 11:18
+风尘浪子
+<span data-post-id="9009574" class="post-view-count">阅读(4496)</span> 
+<span data-post-id="9009574" class="post-comment-count">评论(0)</span> 
+<span data-post-id="9009574" class="post-digg-count">推荐(5)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9009574" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2017/08/30.html"></a>
+	2017年8月30日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/p/7442956.html">
+    <span>
+        数字证书应用综合揭秘（包括证书生成、加密、解密、签名、验签）
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img class="desc_img" style="border: 2px solid #AAAAAA; margin-right: 10px" height="100px" width="100px" src="http://images2017.cnblogs.com/blog/64989/201708/64989-20170831095723124-844718198.jpg" alt="">在这篇文章里将为大家介绍数字证书的生成使用过程，以及对数据进行加密、解密、签名、验签的使用方式。非对称加密的情况下，在企业需要获取客户端数据时，可以把公钥向客户端公开，数据进行加密后，就算加密数据被涉取，在没有私钥的情况，数据内容都不会被破解，确保了数据的安全性。这时，只要企业保证私钥的保密前提下，一个公钥可以向多个客户端进行公开用作数据传输加密。而数字签名的应用场景有点相反，数字签名是企业为客户端确认数据来源的准确性而提供的服务。一般应用于政府机关、行政部门、金融行业、资讯行业等企业的数据发布上。数据都是由企业通过私钥进行签名，只要客户端拥有对应的公钥，就可以对数据进行验签。只要验签        <a href="https://www.cnblogs.com/leslies2/p/7442956.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2017-08-30 10:55
+风尘浪子
+<span data-post-id="7442956" class="post-view-count">阅读(27214)</span> 
+<span data-post-id="7442956" class="post-comment-count">评论(3)</span> 
+<span data-post-id="7442956" class="post-digg-count">推荐(4)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=7442956" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2016/05/09.html"></a>
+	2016年5月9日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/p/5401813.html">
+    <span>
+        Android 综合揭秘 —— 全面剖释 Service 服务
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img class="desc_img" style="border: 2px solid #AAAAAA; margin-right: 10px;" height="100px" width="100px" src="http://images2015.cnblogs.com/blog/64989/201605/64989-20160509032255468-1569499636.jpg" alt>Service 服务是 Android 系统最常用的四大部件之一，Android 支持 Service 服务的原因主要目的有两个，一是简化后台任务的实现，二是实现在同一台设备当中跨进程的远程信息通信。Service 服务主要分为 Local Service 本地服务与 Remote Service 远程服务两种，本地服务只支持同一进程内的应用程序进行访问，远程服务可通过AIDL（Android Interface Definition Language）技术支持跨进程访问。服务可以通过Context.startService()和Context.bindService()进行启动，一般L        <a href="https://www.cnblogs.com/leslies2/p/5401813.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2016-05-09 11:13
+风尘浪子
+<span data-post-id="5401813" class="post-view-count">阅读(10715)</span> 
+<span data-post-id="5401813" class="post-comment-count">评论(0)</span> 
+<span data-post-id="5401813" class="post-digg-count">推荐(10)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=5401813" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2016/04/08.html"></a>
+	2016年4月8日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/p/cordovaPlugin.html">
+    <span>
+        Android移动APP开发笔记——Cordova（PhoneGap）通过CordovaPlugin插件调用 Activity 实例
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img class="desc_img" style="border: 2px solid #AAAAAA; margin-right: 10px;" src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021165950927-887185295.jpg" width="100px" height="100px">Cordova（PhoneGap） 采用HTML5+JavaScript混合模式来开发移动手机APP技术，它利用了CordovaPlugin 插件化（模块化）技术，使用不同插件对不同HTML5页面进行分别处理。与此同时，系统也可以利用插件调用系统已有的地图、通信录、浏览器等多个API，与 HTML5 页面进行信息交换，真正实现HTML5与Android、iOS系统的无缝对接。CordovaInterface 接口默认是由 CordovaInterfaceImpl 类实现的，当中包括了一个Activity对象。当打开APP时 Cordova 会默认启动此 Activity 以承载 Cordova 核        <a href="https://www.cnblogs.com/leslies2/p/cordovaPlugin.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2016-04-08 10:52
+风尘浪子
+<span data-post-id="4836253" class="post-view-count">阅读(21079)</span> 
+<span data-post-id="4836253" class="post-comment-count">评论(1)</span> 
+<span data-post-id="4836253" class="post-digg-count">推荐(0)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=4836253" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2015/09/19.html"></a>
+	2015年9月19日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/p/4819008.html">
+    <span>
+        Android移动APP开发笔记——最新版Cordova 5.3.1（PhoneGap）搭建开发环境
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img class="desc_img" style="border: 2px solid #AAAAAA; margin-right: 10px;" src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021165950927-887185295.jpg" width="100px" height="100px">Cordova的前身叫PhoneGap，自被Adobe收购后交由Apache管理，并将其核心功能开源改名为Cordova。它能让你使用HTML5轻松调用本地API接口和发布应用到商店的应用开发平台。有低成本，低开发周期，轻量化等优点。它统一封装了Andriod，IOS，WindowsPhone，Symbian等几大移动开发平台的API，采用HTML5+JavaScript的混合开发的模式来开发智能移动的APP，解决系统兼容等问题。使用Cordova/PhoneGap，应用程序的构建可以无需本地代码，直接使用的是Web技术即可。由于这些API在多个设备平台上是一致的，都是基于HTML5 Web标准创        <a href="https://www.cnblogs.com/leslies2/p/4819008.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2015-09-19 12:17
+风尘浪子
+<span data-post-id="4819008" class="post-view-count">阅读(9203)</span> 
+<span data-post-id="4819008" class="post-comment-count">评论(4)</span> 
+<span data-post-id="4819008" class="post-digg-count">推荐(6)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=4819008" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2014/05/16.html"></a>
+	2014年5月16日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/p/3727762.html">
+    <span>
+        C#综合揭秘——通过修改注册表建立Windows自定义协议
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021172254302-1612280638.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA;margin-right:10px;"/>本文主要介绍注册表的概念与其相关根项的功能，以及浏览器如何通过连接调用自定义协议并与客户端进行数据通信。文中讲及如何通过C#程序、手动修改、安装项目等不同方式对注册表进行修改。其中通过安装项目对注册表进行修改的情况最为常见，在一般的应用程序中都会涉及。
+当中最为实用的例子将介绍如何通过"安装项目"修改注册表建立自定义协议，在页面通过ajax方式发送路径请求，并在回调函数中调用自定义协议。
+最后一节还将介绍如何调用自定义协议去保持数据的保密性。        <a href="https://www.cnblogs.com/leslies2/p/3727762.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2014-05-16 15:46
+风尘浪子
+<span data-post-id="3727762" class="post-view-count">阅读(17092)</span> 
+<span data-post-id="3727762" class="post-comment-count">评论(13)</span> 
+<span data-post-id="3727762" class="post-digg-count">推荐(15)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=3727762" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/11/15.html"></a>
+	2012年11月15日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/11/15/WindowsServer2008R2_NLB.html">
+    <span>
+        Windows Server 2008 R2 负载平衡入门篇
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021173337239-338289525.png" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA; margin-right: 10px">负载均衡是指通过对系统负载情况进行动态调整，把负荷分摊到多个操作节点上执行，以减少系统中因各个节点负载不均衡所造成的影响。在Windows Server 2008 R2当中，存在着 “网络负载平衡” 功能 (简称 NLB, Network Load Balancing)，它以TCP/IP 为基础的服务，一个群集最多支持32台服务器。它能把请求自动转发到 NLB 群集上对各台服务器，实现管道化式管理，允许向 NLB 群集同时发送多个请求。支持多地址多端口管理，每台服务器可以绑定多个虚拟式 IP，每个虚拟 IP 可建立多个开放式端口。支持故障快速恢复功能，当服务器出现故障重启后将自动恢复群集联机。支持单        <a href="https://www.cnblogs.com/leslies2/archive/2012/11/15/WindowsServer2008R2_NLB.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-11-15 11:08
+风尘浪子
+<span data-post-id="2769903" class="post-view-count">阅读(38488)</span> 
+<span data-post-id="2769903" class="post-comment-count">评论(16)</span> 
+<span data-post-id="2769903" class="post-digg-count">推荐(15)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2769903" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/09/07.html"></a>
+	2012年9月7日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/09/07/leslies2Blog_java_axis.html">
+    <span>
+        Java远程通信技术——Axis实战
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021174552067-1343069636.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA; margin-right: 10px">Axis 全称 Apache EXtensible Interaction System  , 它是一个 SOAP 引擎，提供创建 Web 服务的基本框架。Axis 1.x 是基于 JAX-RPC 而实现一个工具包，它可以使用 HTTP、JMS、SMTP 等多种传输方式支持 SOAP  。
+Axis 2.x 是新一代的 Axis 引擎，它支持 JAX-WS、JAX-PRC 等 API，并且在Axis 1.x 的基础上增加了灵活数据绑定、异步调用等新增功能，可使用 SOAP 1.1 、SOAP 1.2 协议。在服务请求上，Axis 2.x 支持三种请求-响应模式：In-Only、Robust-In        <a href="https://www.cnblogs.com/leslies2/archive/2012/09/07/leslies2Blog_java_axis.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-09-07 12:09
+风尘浪子
+<span data-post-id="2654659" class="post-view-count">阅读(18497)</span> 
+<span data-post-id="2654659" class="post-comment-count">评论(6)</span> 
+<span data-post-id="2654659" class="post-digg-count">推荐(2)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2654659" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/07/30.html"></a>
+	2012年7月30日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/07/30/2608784.html">
+    <span>
+        C#综合揭秘——Entity Framework 并发处理详解
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021172254302-1612280638.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA;margin-right:10px;"/>在软件开发过程中，并发控制是确保及时纠正由并发操作导致的错误的一种机制。从 ADO.NET 到 LINQ to SQL 再到如今的 ADO.NET Entity Framework，.NET 都为并发控制提供好良好的支持方案。
+并发处理方式一般分为乐观必并发与悲观必并发两种，本文将为大家介绍 Entity Framework 、 LINQ to SQL 中的并发处理方式。在本文最后，将提供一个了可参考的方案，结合事务 Transaction 处理复杂性对象的并发。        <a href="https://www.cnblogs.com/leslies2/archive/2012/07/30/2608784.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-07-30 13:15
+风尘浪子
+<span data-post-id="2608784" class="post-view-count">阅读(62006)</span> 
+<span data-post-id="2608784" class="post-comment-count">评论(55)</span> 
+<span data-post-id="2608784" class="post-digg-count">推荐(38)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2608784" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/07/23.html"></a>
+	2012年7月23日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/07/23/2603617.html">
+    <span>
+        Apache2.2+Tomcat7.0整合配置详解
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021175206317-813980784.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA; margin-right: 10px">Apache HTTP Server（简称 Apache），是 Apache 软件基金协会的一个开放源码的网页服务器，可以在 Windows、Unix、Linux 等操作系统中运行是最流行的Web服务器软件之一。Apache 反应速度快，运行效率高，但只支持HTML等静态页面（加载插件后也可支持PHP页面）。
+Apache Tomcat 是由 Apache 软件基金协会与 Sun 公司联合开发的一款Web服务器，它除了支持HTML等静态页面外，还支持JSP、Servlet 。
+在相同的运行环境下，Tomcat 对静态页面的反应速度没有 Apache 灵敏，整合 Apache 与 Tomcat 能        <a href="https://www.cnblogs.com/leslies2/archive/2012/07/23/2603617.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-07-23 17:54
+风尘浪子
+<span data-post-id="2603617" class="post-view-count">阅读(64681)</span> 
+<span data-post-id="2603617" class="post-comment-count">评论(4)</span> 
+<span data-post-id="2603617" class="post-digg-count">推荐(9)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2603617" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/06/29.html"></a>
+	2012年6月29日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/06/29/2569765.html">
+    <span>
+        软件项目管理流程总结
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021175756770-1946785464.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA;margin-right:10px;"/>项目管理与软件开发的质量、效率、最终成果息息相关，本文主要讲述软件项目的风险评估、成本预算、客户沟通、需要分析、开发管理、成品交付等多个流程。
+在现今国内的项目的管理形式十分零乱，对管理欠缺重视，以致很多项目因为失去管理而最终折腰。
+很多的实战形人才只重视于开发环节，而对其他的流程欠缺认识（包括本人），因而导致项目欠缺有条理的、阶段化的管理。
+本人是一个典型的只重视开发的管理者，在多次的教训中深刻地体会到管理的重要性，因而以此文章对项目管理作出一个总结。        <a href="https://www.cnblogs.com/leslies2/archive/2012/06/29/2569765.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-06-29 13:24
+风尘浪子
+<span data-post-id="2569765" class="post-view-count">阅读(88165)</span> 
+<span data-post-id="2569765" class="post-comment-count">评论(35)</span> 
+<span data-post-id="2569765" class="post-digg-count">推荐(27)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2569765" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/05/17.html"></a>
+	2012年5月17日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/05/17/2504673.html">
+    <span>
+        .NET基础篇——Entity Framework 数据转换层通用类
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021180050630-49851492.png" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA;margin-right:10px;"/>本文将为您介绍一个对应Entity Framework的 CRUD 通用类，相比起以往的SqlCommand操作，Entity Framework更体现出映射的灵活性。以往的操作中，即使开发出一个通用类，CommandText 通常都需要使用手工输入，特别是重复的Update命令操作中，往往令人不厌其烦。通过Entity Framework可以把CRUD更高度地集中在一个通用类，令开发变得更加简单。        <a href="https://www.cnblogs.com/leslies2/archive/2012/05/17/2504673.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-05-17 14:16
+风尘浪子
+<span data-post-id="2504673" class="post-view-count">阅读(14240)</span> 
+<span data-post-id="2504673" class="post-comment-count">评论(18)</span> 
+<span data-post-id="2504673" class="post-digg-count">推荐(13)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2504673" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/03/22.html"></a>
+	2012年3月22日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/03/22/2389318.html">
+    <span>
+        C#综合揭秘——深入分析委托与事件
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021172254302-1612280638.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA;margin-right:10px;"/>本章主要介绍了委托（Delegate）的使用，解释委托的协变与逆变，以及如何使用 Delegate 使 Observer（观察者）模式的使用变得更加简单。
+而事件（Event）属于一种特殊的委托，最后，本文还介绍了匿名方法，泛型委托Predicate，Action，Func 的来由，以及 Lambda 表达式的使用方式。
+委托对象是一个派生自 System.MultcastDelegate 的类，它能通过 Invoke 方式进行同步调用，也可以通过 BeginInvoke，EndInvoke 方式实现异步调用。而事件（Event）属于一种特殊的委托，它与委托类型同步使用，可以简化的开发过程。本        <a href="https://www.cnblogs.com/leslies2/archive/2012/03/22/2389318.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-03-22 11:04
+风尘浪子
+<span data-post-id="2389318" class="post-view-count">阅读(68436)</span> 
+<span data-post-id="2389318" class="post-comment-count">评论(42)</span> 
+<span data-post-id="2389318" class="post-digg-count">推荐(81)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2389318" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/03/06.html"></a>
+	2012年3月6日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/03/06/2379235.html">
+    <span>
+        C#综合揭秘——细说进程、应用程序域与上下文之间的关系
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021172254302-1612280638.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA;margin-right:10px;"/>本文主要是介绍进程（Process）、应用程序域（AppDomain）、.NET上下文（Context）的概念与操作。一个进程内可以包括多个应用程序域，也有包括多个线程，线程也可以穿梭于多个应用程序域当中。但在同一个时刻，线程只会处于一个应用程序域内。线程也能穿梭于多个上下文当中，进行对象的调用。虽然在一般的开发当中这三者并不常用，但熟悉三者的关系，深入了解其作用，对提高系统的性能有莫大的帮助。在本篇最后的一节当中将会介绍到三者与线程之间的关系，希望对多线程开发人员能提供一定的帮助。        <a href="https://www.cnblogs.com/leslies2/archive/2012/03/06/2379235.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-03-06 09:36
+风尘浪子
+<span data-post-id="2379235" class="post-view-count">阅读(46790)</span> 
+<span data-post-id="2379235" class="post-comment-count">评论(58)</span> 
+<span data-post-id="2379235" class="post-digg-count">推荐(76)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2379235" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/03/01.html"></a>
+	2012年3月1日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/03/01/2375462.html">
+    <span>
+        先睹为快：Visual Studio 11测试版已于2.29在微软官方网站正式发布
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151022100122849-1519420730.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA;margin-right:10px;"/>在2011的下半年，Visual Studio 11就已经呼之欲出，在2012年的2月29日，微软官方网站正式发布了VS11的测试版。
+VS11中使用了Framework4.5，与Framework4.0相比，没有发生太大的改变，只是对功能进行了优化。
+下载地址:http://www.microsoft.com/visualstudio/11/zh-cn/downloads
+单单一个安装包就需要1.7G左右，安装旗舰装大约需要7.6G的空间，安装时间可能比较长，可需要耐心等待喔。        <a href="https://www.cnblogs.com/leslies2/archive/2012/03/01/2375462.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-03-01 17:04
+风尘浪子
+<span data-post-id="2375462" class="post-view-count">阅读(11982)</span> 
+<span data-post-id="2375462" class="post-comment-count">评论(43)</span> 
+<span data-post-id="2375462" class="post-digg-count">推荐(18)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2375462" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/02/08.html"></a>
+	2012年2月8日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/02/08/2320914.html">
+    <span>
+        C#综合揭秘——细说多线程（下）
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021172254302-1612280638.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA;margin-right:10px;"/>本文主要从线程的基础用法，CLR线程池当中工作者线程与I/O线程的开发，并行操作PLINQ等多个方面介绍多线程的开发。
+其中委托的BeginInvoke方法以及回调函数最为常用。
+而 I/O线程可能容易遭到大家的忽略，其实在开发多线程系统，更应该多留意I/O线程的操作。特别是在ASP.NET开发当中，可能更多人只会留意在客户端使用Ajax或者在服务器端使用UpdatePanel。其实合理使用I/O线程在通讯项目或文件下载时，能尽量降低IIS中的压力。
+并行编程是Framework4.0中极力推广的异步操作方式，更值得更深入地学习。        <a href="https://www.cnblogs.com/leslies2/archive/2012/02/08/2320914.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-02-08 15:38
+风尘浪子
+<span data-post-id="2320914" class="post-view-count">阅读(50230)</span> 
+<span data-post-id="2320914" class="post-comment-count">评论(67)</span> 
+<span data-post-id="2320914" class="post-digg-count">推荐(64)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2320914" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/leslies2/archive/2012/02/07.html"></a>
+	2012年2月7日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2 vertical-middle" href="https://www.cnblogs.com/leslies2/archive/2012/02/07/2310495.html">
+    <span>
+        C#综合揭秘——细说多线程（上）
+    </span>
+    
+
+
+
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：<img src="http://images2015.cnblogs.com/blog/64989/201510/64989-20151021172254302-1612280638.jpg" class="desc_img" width="100px" height="100px" style="border: 2px solid #AAAAAA;margin-right:10px;"/>本文主要从线程的基础用法，CLR线程池当中工作者线程与I/O线程的开发，并行操作PLINQ等多个方面介绍多线程的开发。
+其中委托的BeginInvoke方法以及回调函数最为常用。
+而 I/O线程可能容易遭到大家的忽略，其实在开发多线程系统，更应该多留意I/O线程的操作。特别是在ASP.NET开发当中，可能更多人只会留意在客户端使用Ajax或者在服务器端使用UpdatePanel。其实合理使用I/O线程在通讯项目或文件下载时，能尽可能地减少IIS压力。
+并行编程是Framework4.0中极力推广的异步操作方式，更值得更深入地学习。        <a href="https://www.cnblogs.com/leslies2/archive/2012/02/07/2310495.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2012-02-07 15:17
+风尘浪子
+<span data-post-id="2310495" class="post-view-count">阅读(141377)</span> 
+<span data-post-id="2310495" class="post-comment-count">评论(107)</span> 
+<span data-post-id="2310495" class="post-digg-count">推荐(161)</span> 
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=2310495" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/leslies2/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+<script>
+    updatePostStats(
+        $(".post-view-count").map(function () { return this.dataset.postId }).get(),
+        function(id, count) { $(".post-view-count[data-post-id=" + id + "]").text("阅读(" + count + ")") },
+        function(id, count) { $(".post-comment-count[data-post-id=" + id + "]").text("评论(" + count + ")") },
+        function(id, count) { $(".post-digg-count[data-post-id=" + id + "]").text("推荐(" + count + ")") });
+</script>
+	<p id="footer">
+	Powered by: 
+	<br />
+	
+	<a href="https://www.cnblogs.com/" id="footer_site_link">博客园</a>
+	<br />
+	Copyright &copy; 2021 风尘浪子
+<br /><span id="poweredby">Powered by .NET 5.0 on Kubernetes</span>
+
+</p>
+
+
+</div>
+<div id="rightmenu">
+	
+		<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+		
+<h3>导航</h3>
+<ul>
+			<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+			<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/leslies2/">
+首页</a>
+</li>
+			<li>
+
+
+</li>
+			<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E9%A3%8E%E5%B0%98%E6%B5%AA%E5%AD%90">
+联系</a></li>
+			<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/leslies2/rss/">
+订阅</a>
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/leslies2/rss/">
+    <img src="/skins/book/images/xml.gif" alt="订阅" />
+</a></li>
+			<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div id="blog_stats_place_holder"><script>loadBlogStats();</script></div>
+		<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+<div id="sidebar_c3"></div>
+		<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+	
+</div>
+			
+			
+			
+			
+			 
+
+	
+
+
+    
+
+    <input type="hidden" id="antiforgery_token" value="CfDJ8L-rpLgFVEJMgssCVvNUAjuL2Fl2zsx5LYA-5XK2WMtq4RTQUbwHocAopmBRPCM5RfX7EHD93TZEIzg9wyWDe6XR3eQYoDNdnLAC2ouhFvi8NfprdpYnM2ekhW_0Bd1PwVA2KCncUdtp83hIXyJN2R4" />
+</body>
+</html>
