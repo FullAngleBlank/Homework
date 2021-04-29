@@ -1,0 +1,7 @@
+D:\ VS2017\C#\OrderManagerSystem\OrderManagerSystem\bin\Debug\OrderManagerSystem.exe.config
+D:\ VS2017\C#\OrderManagerSystem\OrderManagerSystem\bin\Debug\OrderManagerSystem.exe
+D:\ VS2017\C#\OrderManagerSystem\OrderManagerSystem\bin\Debug\OrderManagerSystem.pdb
+D:\ VS2017\C#\OrderManagerSystem\OrderManagerSystem\obj\Debug\OrderManagerSystem.csprojAssemblyReference.cache
+D:\ VS2017\C#\OrderManagerSystem\OrderManagerSystem\obj\Debug\OrderManagerSystem.csproj.CoreCompileInputs.cache
+D:\ VS2017\C#\OrderManagerSystem\OrderManagerSystem\obj\Debug\OrderManagerSystem.exe
+D:\ VS2017\C#\OrderManagerSystem\OrderManagerSystem\obj\Debug\OrderManagerSystem.pdb
